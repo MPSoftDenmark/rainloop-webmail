@@ -4,8 +4,6 @@
 ###################################################################
 export DEBIAN_FRONTEND=noninteractive
 
-sudo apt-key update
-sudo apt-get update
 
 cd /usr/src/rainloop-webmail
 
@@ -21,7 +19,7 @@ cd /var/rainloop-webmail
 
 service docker restart 
 
-docker-compose pull
+#docker-compose pull
 
 #docker-compose build
 
