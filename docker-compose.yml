@@ -2,7 +2,7 @@ version: '2'
 services:
   mail:
     image: tvial/docker-mailserver:latest
-    hostname: webmail
+    hostname: mail
     container_name: rl.mail
     domainname: mpsoft.dk
     restart: always
