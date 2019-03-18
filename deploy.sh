@@ -4,6 +4,8 @@
 ###################################################################
 export DEBIAN_FRONTEND=noninteractive
 
+sudo apt-key update
+sudo apt-get update
 
 cd /usr/src/rainloop-webmail
 

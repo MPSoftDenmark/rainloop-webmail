@@ -2,6 +2,10 @@ FROM php:7.1-fpm
 
 RUN apt-get update
 
+RUN apt-get update -y
+
+RUN apt-get update
+
 RUN apt-get install -y \
 	git unzip wget zip curl mlocate \
 	libmcrypt-dev libicu-dev libpcre3-dev libicu-dev \
