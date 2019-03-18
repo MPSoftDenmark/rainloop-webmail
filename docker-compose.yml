@@ -48,7 +48,7 @@ services:
       - db
       - mail
     volumes:
-      - ./:/var/www
+      - ./:/var/www:rw
       # - ./build/local/:/var/www
       - ./.docker/php/rainloop.ini:/usr/local/etc/php/conf.d/rainloop.ini
       - tmp:/tmp
