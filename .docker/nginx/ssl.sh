@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+exit
 
 SERVER_NAME=localhost
 SUBJECT="/C=RU/ST=RND/L=Taganrog/O=Umbrella Web/CN=${SERVER_NAME}"
