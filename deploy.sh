@@ -4,7 +4,6 @@
 ###################################################################
 export DEBIAN_FRONTEND=noninteractive
 
-
 cd /usr/src/rainloop-webmail
 
 git pull
@@ -15,10 +14,7 @@ cp -r /usr/src/rainloop-webmail /var/.
 
 cd /var/rainloop-webmail
 
-docker-compose down --rmi all
-
 service docker restart 
 
-docker-compose build
+make rebuild
 
-docker-compose up -d 
