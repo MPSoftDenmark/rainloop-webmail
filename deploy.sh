@@ -15,11 +15,13 @@ cp -r /usr/src/rainloop-webmail /var/.
 
 cd /var/rainloop-webmail
 
-docker-compose down --rmi all
+#docker-compose down --rmi all
 
 service docker restart 
 
-docker-compose build
+docker-compose pull
+
+#docker-compose build
 
 docker-compose up -d 
 
