@@ -25,4 +25,6 @@ service docker restart
 
 docker-compose up -d 
 
+#docker exec -ti rl.nginx sh -c "chmod 644 /var/www"
+
 #make rebuild
