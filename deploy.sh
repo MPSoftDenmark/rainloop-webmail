@@ -4,7 +4,6 @@
 ###################################################################
 export DEBIAN_FRONTEND=noninteractive
 
-
 cd /usr/src/rainloop-webmail
 
 git pull
